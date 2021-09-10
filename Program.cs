@@ -44,7 +44,7 @@ namespace String_Reduction20210910
                 return 2;
             }
 
-            // Answer is 1 for all other cases.
+            // Answer is 1 for all other cases.0
             return 1;
         }
 
@@ -55,8 +55,11 @@ namespace String_Reduction20210910
 
 
             String str = "abcbbaacb"; //  abcbbaacb = ccbbaacb = cabaacb = bbaacb = bcacb = aacb = abb = cb = a
-
             Console.WriteLine(stringReduction(str));
+
+
+
+
 
             Console.ReadLine();
 
